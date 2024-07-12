@@ -1,2 +1,2 @@
 -- Add column for first letter
-CREATE INDEX first ON names (name(1));
+CREATE INDEX idx_name_first ON names (name(1));
